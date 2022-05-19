@@ -3,14 +3,19 @@
 
 void setup() { 
 
-  GPIOconfig(); 
-  Serial.begin(9600); 
+    GPIOconfig(); 
+    Serial.begin(9600); 
+    pinMode(LED_BUILTIN, OUTPUT); 
+    digitalWrite(LED_BUILTIN, HIGH);
+    program_pic(); 
 
 }
 
 void loop() { 
 
-    write_readback(0x3FFF);
-    delay(1); 
+    digitalWrite(LED_BUILTIN, HIGH); 
+    delay(500); 
+    digitalWrite(LED_BUILTIN, LOW); 
+    delay(500);
 
 } 

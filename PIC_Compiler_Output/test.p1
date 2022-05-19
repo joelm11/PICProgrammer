@@ -1,0 +1,33 @@
+Version 3.2 HI-TECH Software Intermediate Code
+[p mainexit ]
+"605 C:\Program Files (x86)\microchip\xc8\v1.00\include\pic16f688.h
+[v _ANSEL `Vuc ~T0 0 e@145 ]
+"518
+[v _TRISC `Vuc ~T0 0 e@135 ]
+"501
+[v _TRISA `Vuc ~T0 0 e@133 ]
+"175
+[v _PORTA `Vuc ~T0 0 e@5 ]
+"192
+[v _PORTC `Vuc ~T0 0 e@7 ]
+"4 AccessoryFiles/test.c
+[v _main `(i ~T0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"7
+[e = _ANSEL -> -> 0 `i `uc ]
+"8
+[e = _TRISC -> -> 0 `i `uc ]
+"9
+[e = _TRISA -> -> 0 `i `uc ]
+"10
+[e = _PORTA -> -> 255 `i `uc ]
+"11
+[e = _PORTC -> -> 255 `i `uc ]
+"12
+[e ) -> 0 `i ]
+[e $UE 124  ]
+"14
+[e :UE 124 ]
+}
