@@ -1,5 +1,6 @@
 # PICProgrammer
 Software ICSP Arduino implementation (In progress) 
+Brief project report here: https://docs.google.com/document/d/1mO3AR7HRqI8Zcu73eEDqE07itiAY38nx5-VQVHs3OQc/edit?usp=sharing
 
 Currently: 
 1.  Flash Arduino
